@@ -1,2 +1,3 @@
 # FirstGit
-This is my first git
+This is my first github repository
+author - Astha Bhandari 
