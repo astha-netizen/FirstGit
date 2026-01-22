@@ -1,1 +1,39 @@
-<p>hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Student Login</h2>
+            <p class="subtitle">Access your student dashboard</p>
+
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="studentId">Student ID</label>
+                    <input type="text" id="studentId" placeholder="Enter Student ID" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" required>
+                </div>
+
+                <button type="submit" class="login-btn">Login</button>
+                <p id="error-message"></p>
+            </form>
+
+            <div class="footer-text">
+                <p>© 2026 Student Portal</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
